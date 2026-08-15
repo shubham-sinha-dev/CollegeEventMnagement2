@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516771764330",
+    "project_id": "collegeeventmanagement2026",
+    "storage_bucket": "collegeeventmanagement2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516771764330:android:dcce42bac15c4493d6d213",
+        "android_client_info": {
+          "package_name": "com.example.collegeeventmnagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5nmDmuDWfi7BmGEc_3qBxrkahhcm1bVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Notification"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/etNotificationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notification Title"
+            android:inputType="text"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNotificationMessage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Notification Message"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSendNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Notification"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

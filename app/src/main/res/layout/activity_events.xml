@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FB"
+    android:padding="20dp">
+
+    <!-- HEADER -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College Events"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover and register for upcoming events"
+        android:textSize="14sp"
+        android:textColor="#6B7280"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- SEARCH BOX -->
+
+    <EditText
+        android:id="@+id/etSearchEvent"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Search events..."
+        android:textSize="15sp"
+        android:textColor="#172B4D"
+        android:textColorHint="#9CA3AF"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- FILTER -->
+
+    <Spinner
+        android:id="@+id/spinnerFilter"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="15dp" />
+
+    <!-- EVENTS LIST -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/eventsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="25dp" />
+
+    </ScrollView>
+
+</LinearLayout>

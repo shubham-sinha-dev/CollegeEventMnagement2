@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- HEADER -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Panel"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage your college events"
+            android:textSize="15sp"
+            android:textColor="#6B7280"
+            android:gravity="center"
+            android:layout_marginBottom="35dp" />
+
+        <!-- CREATE EVENT -->
+
+        <Button
+            android:id="@+id/btnCreateEvent"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Create Event"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp" />
+
+        <!-- MANAGE EVENTS -->
+
+        <Button
+            android:id="@+id/btnManageEvents"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Manage Events"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp" />
+
+        <!-- MY EVENTS -->
+
+        <Button
+            android:id="@+id/btnMyEvents"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="My Events"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp" />
+
+        <!-- REGISTRATIONS -->
+
+        <Button
+            android:id="@+id/btnRegistrations"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="View Registrations"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp" />
+
+        <!-- NOTIFICATIONS -->
+
+        <Button
+            android:id="@+id/btnNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Send Notification"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp" />
+
+        <!-- LOGOUT -->
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
